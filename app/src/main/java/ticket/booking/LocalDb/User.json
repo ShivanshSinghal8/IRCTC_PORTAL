@@ -1,0 +1,70 @@
+[
+  {
+    "user_id": "u310",
+    "name": "Amit",
+    "password": "amit456",
+    "hashed_password": "b7c2d4e9f5",
+    "ticket": {
+      "ticket_id": "t999",
+      "source": "Delhi",
+      "destination": "Lucknow",
+      "date_of_travel": "2026-09-10T22:30:00",
+      "train": {
+        "train_id": "tr310",
+        "train_no": 12230,
+        "arrival_time": "2026-09-11T05:50:00",
+        "dept_time": "2026-09-10T22:30:00",
+        "seats": [
+          [1, 1, 1, 0, 0, 0],
+          [0, 1, 0, 1, 0, 1],
+          [0, 0, 0, 0, 1, 0],
+          [1, 0, 1, 0, 0, 1]
+        ],
+        "station_times": {
+          "delhi": "2026-09-10T22:30:00",
+          "kanpur": "2026-09-11T03:10:00",
+          "lucknow": "2026-09-11T05:50:00"
+        },
+        "stations": [
+          "delhi",
+          "kanpur",
+          "lucknow"
+        ]
+      }
+    }
+  },
+  {
+    "user_id": "u102",
+    "name": "Rahul",
+    "password": "rahul123",
+    "hashed_password": "a8f7d9c2e4",
+    "ticket": {
+      "ticket_id": "t567",
+      "source": "Mumbai",
+      "destination": "Kolkata",
+      "date_of_travel": "2026-07-15T20:00:00",
+      "train": {
+        "train_id": "tr102",
+        "train_no": 12951,
+        "arrival_time": "2026-07-16T18:30:00",
+        "dept_time": "2026-07-15T20:00:00",
+        "seats": [
+          [1, 1, 0, 0, 1, 0],
+          [0, 0, 0, 1, 0, 0],
+          [1, 0, 1, 0, 0, 1],
+          [0, 0, 0, 0, 1, 0]
+        ],
+        "station_times": {
+          "mumbai": "2026-07-15T20:00:00",
+          "nagpur": "2026-07-16T04:30:00",
+          "kolkata": "2026-07-16T18:30:00"
+        },
+        "stations": [
+          "mumbai",
+          "nagpur",
+          "kolkata"
+        ]
+      }
+    }
+  }
+]
